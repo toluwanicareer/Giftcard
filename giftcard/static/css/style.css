@@ -812,7 +812,7 @@ preview-2
 # About
 --------------------------------------------------------------*/
 .about-area {
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -821,8 +821,23 @@ preview-2
   display: block;
 }
 
+.single-well a h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+@media (min-width: 150px){
+  .single-well a h4 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
 .single-well ul li {
-  color: #000;
+  color: #fff;
   display: block;
   padding: 5px 0;
 }
@@ -834,7 +849,9 @@ preview-2
 }
 
 .single-well p {
-  color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -870,6 +887,10 @@ preview-2
 
 .section-headline.services-head > h2 {
   margin-bottom: 25px;
+}
+
+.services-area {
+  padding-bottom: 0px;
 }
 
 .services-details {
@@ -908,7 +929,7 @@ preview-2
 /*--------------------------------------------------------------
 # Review
 --------------------------------------------------------------*/
-.reviews-area {
+/* .reviews-area {
   
   background: url(../img/background/about.jpg);
   overflow: hidden;
@@ -992,7 +1013,70 @@ margin-top: 20px;
 
 .single-awesome-4 .add-actions {
   padding: 10px 20px;
+} */
+
+
+
+/* /*--------------------------------------------------------------
+# Review
+--------------------------------------------------------------*/
+/*.reviews-area {
+  background: url(../img/background/52.jpg);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-top: 20px;
+  margin-top: 70px;
 }
+
+.work-left-text {
+  background: #3EC1D5 none repeat scroll 0 0;
+}
+
+.work-right-text {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  background-size: cover;
+  background-position: top center;
+
+}
+
+.work-right-text h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.work-right-text h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.work-right-text .sus-btn {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.single-awesome-4 {
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 33.33%;
+}
+
+.single-awesome-4 .add-actions {
+  padding: 10px 20px;
+} */
+
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1172,6 +1256,36 @@ margin-top: 20px;
     }
 }
 
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.our-skill-area {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 70px;
+}
+
+.our-skill-area .progress-circular .knob {
+  color: #f7921a;
+}
+
+.our-skill-area {
+  background: rgba(248, 248, 248, 0.8) url("../img/background/blogbg7.jpg") no-repeat fixed center top/cover;
+}
+
+.test-overly {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.progress-h4 {
+  color: #fff;
+  font-weight: 500;
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1320,9 +1434,12 @@ margin-top: 20px;
 # Quote
 --------------------------------------------------------------*/
 .suscribe-area {
-  background: #f7921a none repeat scroll 0 0;
+  background: #242438 none repeat scroll 0 0;
   padding: 10px 0;
   padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 80px;
+ 
 }
 
 .suscribed-area {
@@ -1347,6 +1464,10 @@ margin-top: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.suscribe-text h3 a {
+  font-size: 16px;
+}
+
 .suscribed-text h3 {
   color: #fff;
   display: inline-block;
@@ -1358,23 +1479,24 @@ margin-top: 20px;
 }
 
 .sus-btn {
-  background: #fff none repeat scroll 0 0;
+  background: #f7921a none repeat scroll 0 0;
   border: 2px solid #fff;
-  color: #f7921a;
+  color: #fff;
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   margin-left: 10px;
   padding: 7px 7px;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .sus-btn:hover {
-  background: #242438 none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   border: 2px solid #fff;
-  color: #fff;
+  color: #000;
+  border: 2px solid #242438;
 }
 
 
@@ -1390,6 +1512,7 @@ margin-top: 20px;
   padding-top: 5px;
   margin-top: 5px;
   margin-bottom: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .faq-search-wrap .form-group .form-control,
@@ -1503,12 +1626,14 @@ margin-top: 20px;
     font-weight: bold;
 }
 
-.accordion .card .card-header .card-body ul li {
+.accordion .card .card-header .card-body ol li {
   color: #000;
   font-style: bold;
   text-transform: bold;
   font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 #aboutsec {
   margin-top: 20px;
@@ -1733,8 +1858,9 @@ a {
 }
 
 .footer-contacts p span {
-  color: #f7921a;
-  font-weight: 700;
+  color: #fff;
+  font-weight: bold;
+
 }
 
 .popular-tag ul li {
