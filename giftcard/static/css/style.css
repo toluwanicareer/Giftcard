@@ -926,157 +926,6 @@ preview-2
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Review
---------------------------------------------------------------*/
-/* .reviews-area {
-  
-  background: url(../img/background/about.jpg);
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 390px;
-  position: relative;
-  background-color: rgba(0, 0, 0, 1.9);
-}
-
-.reviews-area .row .col-lg-12 .mydiv .no-gutters h2 h5 {
-  font-size: large;
-  text-align: justify;
-}
-
-#trust h2{
-font-weight: bold;
-text-align: center;
-color: #242438;
-padding: 20px;
-margin-top: 20px;
-}
-
-#trust h5{
-  font-weight: bold;
-  text-align: center;
-  color: #000;
-  font-size: 16px;
-  font-weight: 700;
-  }
-
-
-
-.reviews-area h2 h5 {
-  color: #f7921a;
-}
-
-.work-left-text {
-  background: #3EC1D5 none repeat scroll 0 0;
-}
-
-.work-right-text {
-  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
-}
-
-.work-right-text h2 {
-  color: #fff;
-  font-size: 30px;
-  position: relative;
-  vertical-align: top;
-  padding-bottom: 30px;
-  padding-top: 0%;
-  margin-top: 0%;
-  font-weight: bold;
-}
-
-.work-right-text h5 {
-  color: #fff;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 34px;
-  padding-top: 0%;
-  margin-top: 0%;
-  padding-bottom: 180px;
-}
-
-.work-right-text .sus-btn {
-  margin-left: 0;
-  margin-top: 20px;
-}
-
-.single-awesome-4 {
-  display: block;
-  float: left;
-  overflow: hidden;
-  width: 33.33%;
-}
-
-.single-awesome-4 .add-actions {
-  padding: 10px 20px;
-} */
-
-
-
-/* /*--------------------------------------------------------------
-# Review
---------------------------------------------------------------*/
-/*.reviews-area {
-  background: url(../img/background/52.jpg);
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  padding-top: 20px;
-  margin-top: 70px;
-}
-
-.work-left-text {
-  background: #3EC1D5 none repeat scroll 0 0;
-}
-
-.work-right-text {
-  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
-  background-size: cover;
-  background-position: top center;
-
-}
-
-.work-right-text h2 {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 24px;
-}
-
-.work-right-text h5 {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 34px;
-  text-transform: uppercase;
-}
-
-.work-right-text .sus-btn {
-  margin-left: 0;
-  margin-top: 20px;
-}
-
-.single-awesome-4 {
-  display: block;
-  float: left;
-  overflow: hidden;
-  width: 33.33%;
-}
-
-.single-awesome-4 .add-actions {
-  padding: 10px 20px;
-} */
-
-
-
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1271,7 +1120,7 @@ margin-top: 20px;
 }
 
 .our-skill-area {
-  background: rgba(248, 248, 248, 0.8) url("../img/background/blogbg7.jpg") no-repeat fixed center top/cover;
+  background: rgba(248, 248, 248, 0.8) url("../img/background/52.jpg") no-repeat fixed center top/cover;
 }
 
 .test-overly {
@@ -1286,9 +1135,74 @@ margin-top: 20px;
   font-weight: 500;
 }
 
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+
+/* my testi */
+.testimonials-aread {
+  background: rgba(0, 0, 0, 0) url("../img/background/about.jpg") no-repeat fixed center top/cover;
+  height: auto;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 767px){
+  .testimonials-aread {
+    background: rgba(0, 0, 0, 0) url("../img/background/about.jpg") no-repeat fixed center top/cover;
+    height: auto;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.testi-overlyd {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.testi-innerd {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.testimonials-aread .testi-innerd .testi-overlyd .testimonial-contentd h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.testi-textd h6 {
+  color: #fff;
+  font-size: 20px;
+  height: 20px;
+  line-height: 1.5em;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 575px){
+  .testi-textd h6 {
+      color: #fff;
+      font-size: 20px;
+      height: 20px;
+      line-height: 1.5em;
+      margin-top: 0px;
+      padding-top: 0px;
+      margin-bottom: 120px;
+  }
+}
+
 .testimonials-area {
   background: rgba(0, 0, 0, 0) url("../img/background/tess.jpg") no-repeat fixed center top/cover;
   height: auto;
