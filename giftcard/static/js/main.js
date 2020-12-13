@@ -218,7 +218,7 @@
   $(window).on("load", function() {
     var $container = $('.awesome-project-content');
     $container.isotope({
-      filter: '*',
+      filter: '.all',
       animationOptions: {
         duration: 750,
         easing: 'linear',
