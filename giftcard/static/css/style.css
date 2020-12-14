@@ -878,7 +878,7 @@ preview-2
   border: 1px solid #fff;
   line-height: 46px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #fff;
   background-color: #f7921a;
   font-weight: 600px;
@@ -886,16 +886,24 @@ preview-2
 
 
 .section-headline.services-head > h2 {
-  margin-bottom: 25px;
+  margin-bottom: 70px;
 }
 
 .services-area {
   padding-bottom: 0px;
 }
 
+.grid-container{
+   display: grid;
+}
+
 .services-details {
   padding-top: 40px;
   transition: all 0.5s ease 0s;
+  border-inline: 1px solid #000;
+  background-color: #242438;
+  grid-auto-rows: 1fr;
+   
 }
 
 .services-details:hover h4, .services-details:hover .services-icon {
@@ -913,14 +921,14 @@ preview-2
 }
 
 .single-services > h4 {
-  color: #000;
+  color: #fff;
   background-color: None;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 700;
 }
 
 .single-services > p {
-  color: #000;
+  color: #fff;
   font-size: 16px;
   font-weight: 600px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
