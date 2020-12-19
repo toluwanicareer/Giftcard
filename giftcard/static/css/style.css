@@ -2166,6 +2166,8 @@ a {
 
 #team {
     background: #eee !important;
+    margin-bottom: -60px;
+    padding-bottom: -20px;
 }
 
 
